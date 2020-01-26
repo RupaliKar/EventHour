@@ -10,7 +10,7 @@
                         <div class="slide-table">
                            <div class="slide-tablecell">
 							  <h4>HARMONI</h4>                             
-							  <h2> EVENTS <span>REGISTER</span> </h2>
+							  <h2> event <span>REGISTER</span> </h2>
                            </div>
                         </div>
                      </div>
