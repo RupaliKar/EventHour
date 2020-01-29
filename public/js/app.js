@@ -66442,17 +66442,7 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "row table_2" }, [
-            _c("div", { staticClass: "col-md-4 col-4" }),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-4 col-4" }, [
-              _c("p", { staticClass: "list_p2" })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-4 col-4" }, [
-              _c("p", { staticClass: "list_p2" })
-            ])
-          ])
+          _c("div", { staticClass: "row table_2" })
         ])
       ])
     ])

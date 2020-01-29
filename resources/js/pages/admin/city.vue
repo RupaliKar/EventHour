@@ -147,15 +147,7 @@
                     
                     
                         <div class="row table_2" >
-                            <div class="col-md-4 col-4">
-                               
-                            </div>
-                            <div class="col-md-4 col-4">
-                                <p class="list_p2"></p>
-                            </div>
-                            <div class="col-md-4 col-4">
-                                <p class="list_p2"></p>
-                            </div>
+                           
                         </div>
                 </div>
             </div>
