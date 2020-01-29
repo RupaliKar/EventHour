@@ -1,0 +1,64 @@
+@media all and (max-width: 759px){
+    .left_div {
+        position: unset;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .right_side {
+        padding-left: 0;
+    }
+    .top_div {
+        display: block;
+    }
+    .list_menu .ivu-menu{
+        width: auto !important;
+    }
+ 
+    .dash_card {
+        padding: 0;
+    }
+    .right_row1 {
+        padding: 20px 50px 20px 15px;
+    }
+    .table_1 {
+        width: 900px;
+    }
+    .table_2 {
+        width: 900px;
+    }
+    .table_list{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .table_head{
+        width: 900px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+     .table_div{
+        overflow: auto;
+    }
+    .pic_card{
+        margin-bottom: 20px;
+    }
+    .right_row_pro{
+        padding: 0;
+    }
+    .d_card{
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width: 320px){
+    .search_div .ivu-input-wrapper{
+        width: 245px;
+    }
+}
+
+@media all and (min-width:760px) and (max-width: 1030px){
+    .dash_card{
+        padding: 20px 10px 0px 20px;
+    }
+   
+}
+
+    
