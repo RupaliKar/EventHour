@@ -563,6 +563,48 @@
                 </div>
             </section>
             <!--==========================  EVENTS AREA END ============================-->
+			<!--==========================  CITY AREA START ============================-->
+			   <section class="find-city-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="events pt-50">
+								<div class="single-add-event">						
+								<h1>Find us  <span> in your city </span></h1>
+								 <a href="#" class="box-btn">VIEW ALL CITIES<i class="fa fa-angle-double-right"></i></a>
+							</div>
+							</div>
+						</div>
+					</div>	
+					<div class="row">
+						 <div class="col-md-4">
+							<div class="single-city">
+								<a href="#">&nbsp &nbsp <i class="fa fa-plus" aria-hidden="true"></i> <br/> Sylhet</a>
+								<div class="city-img-1">
+									<img src="assets/img/banner/abc.jpg"alt="img"/>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="single-city">
+								<a href="#">&nbsp &nbsp <i class="fa fa-plus" aria-hidden="true"></i><br/>Dhaka</a>
+								<div class="city-img-1">
+									<img src="assets/img/banner/2.jpg"alt="img"/>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="single-city">
+								<a href="#">&nbsp &nbsp &nbsp <i class="fa fa-plus" aria-hidden="true"></i><br/>Rajshahi</a>
+								<div class="city-img-1">
+									<img src="assets/img/banner/download.jpg"alt="img"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			  </section>
+			<!--==========================  CITY AREA END ============================-->
             <!--==========================  GALLERY AREA START  ============================-->
             <section class="gallery-area">
                 <div class="container">
