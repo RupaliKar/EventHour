@@ -8,6 +8,7 @@ import speaker from '../pages/speaker.vue'
 import speaker_details from '../pages/speaker_details.vue'
 import venues from '../pages/venues.vue'
 import venues_details from '../pages/venues_details.vue'
+import contact from '../pages/contact.vue'
 import login from '../pages/login.vue'
 import registration from '../pages/registration.vue'
 // import admin from '../pages/admin/admin.vue';
@@ -95,6 +96,18 @@ export default new Router({
          // guest: true,
          // allowedUserType: ['All'],
           title: 'venues_details',
+      }
+
+    },
+
+    {
+      path: '/contact',
+      name: 'contact',
+      component: contact,
+      meta: {
+         // guest: true,
+         // allowedUserType: ['All'],
+          title: 'contact',
       }
 
     },

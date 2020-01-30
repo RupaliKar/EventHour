@@ -61,29 +61,33 @@
                                 </router-link>
                             </li>
                            <li class="dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							   <a href="">about</a>
-							</a>
-							</li>
-							 <li>
-                                 <router-link to="/services" class="nav-link">
-                                 Services
-                                </router-link>
+							         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							         <a href="">about</a>
+							      </a>
+							      </li>
+							      <li>
+                              <router-link to="/services" class="nav-link">
+                              Services
+                              </router-link>
                             </li>
                             <li class="dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Events
-							</a>
-							<div class="dropdown-menu my-dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item my-dropdown-item transition" href=""><i class="fa fa-angle-double-right"></i><router-link to="/venues" class="nav-link">
+							      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							      Events
+							      </a>
+							      <div class="dropdown-menu my-dropdown-menu" aria-labelledby="navbarDropdown">
+								      <a class="dropdown-item my-dropdown-item transition" href=""><i class="fa fa-angle-double-right"></i><router-link to="/venues" class="nav-link">
                                  Venue
                                 </router-link></a>
-							</div>
-							</li>
+							         </div>
+							      </li>
                            <li><router-link to="/speaker" class="nav-link">
                                  speaker
-                                </router-link></li>
-                           <li><a href="">Contact</a></li>
+                                </router-link>
+                           </li>
+                           <li><router-link to="/contact" class="nav-link">
+                                 Contact
+                                </router-link>
+                           </li>
                         </ul>
                      </div>
                   </nav>
