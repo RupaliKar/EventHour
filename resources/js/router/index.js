@@ -10,14 +10,6 @@ import venues from '../pages/venues.vue'
 import venues_details from '../pages/venues_details.vue'
 import login from '../pages/login.vue'
 import registration from '../pages/registration.vue'
-// import admin from '../pages/admin/admin.vue';
-
-import city from '../pages/admin/city.vue'
-import event from '../pages/admin/event.vue'
-import reviews from '../pages/admin/reviews.vue'
-import user from '../pages/admin/user.vue'
-import venue from '../pages/admin/venue.vue'
-import venue_img from '../pages/admin/venue_img.vue'
 
 
 let Admin = ['Admin'];
@@ -119,88 +111,6 @@ export default new Router({
          // guest: true,
          // allowedUserType: ['All'],
           title: 'registration',
-      }
-
-    },
-
-    // {
-    //   path: '/admin',
-    //   name: 'admin',
-    //   component: admin,
-    //   meta: {
-    //       guest: true,
-    //       allowedUserType:Admin,
-    //       title: 'admin',
-    //   }
-    // },
-    {
-      path: '/admin/city',
-      name: 'city',
-      component: city,
-      meta: {
-         // guest: true,
-         // allowedUserType: ['All'],
-          title: 'city',
-      }
-
-    },
-
-
-    {
-      path: '/admin/event',
-      name: 'event',
-      component: event,
-      meta: {
-         // guest: true,
-         // allowedUserType: ['All'],
-          title: 'event',
-      }
-
-    },
-
-    {
-      path: '/admin/reviews',
-      name: 'reviews',
-      component: reviews,
-      meta: {
-         // guest: true,
-         // allowedUserType: ['All'],
-          title: 'reviews',
-      }
-
-    },
-
-    {
-      path: '/admin/venue',
-      name: 'venue',
-      component: venue,
-      meta: {
-         // guest: true,
-         // allowedUserType: ['All'],
-          title: 'venue',
-      }
-
-    },
-
-    {
-      path: '/admin/venue_img',
-      name: 'venue_img',
-      component: venue_img,
-      meta: {
-         // guest: true,
-         // allowedUserType: ['All'],
-          title: 'venue_img',
-      }
-
-    },
-    {
-      path: '/admin/user',
-      name: 'user',
-      component: user,
-      meta: {
-         // guest: true,
-         // allowedUserType: ['All'],
-          title: 'user',
       }
 
     },

@@ -11,14 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/admin_master', function () {
-    return view('admin_master');
-});
-
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 // Registration & Login Route
 Route::post('/app/registration', "UserController@registration");
 Route::post('/app/login', "UserController@login");
@@ -31,4 +26,4 @@ Route::get('/logout', function () {
     return redirect("/");
 });
 
-Route::any('{slug}', 'HomeController@home')->where('slug', '([A-z\d\/_.]+)?');
+Route::any('{slug}', 'HomeController@home')->where('slug', '([A-z\d-\/_.]+)?');

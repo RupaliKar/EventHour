@@ -93,7 +93,8 @@
         },
         created(){
             console.log(window.authUser)
-            
+            this.isLoggedIn==true
+            this.$router.push('/')
             
         }
     }
